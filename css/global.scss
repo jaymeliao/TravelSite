@@ -9,6 +9,7 @@ body {
   font-family: $font-stack;
 }
 
+
 h1 {
   font-size: 3rem;
   font-weight: 300;
@@ -24,14 +25,14 @@ h3{
 }
 
 a {
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 p {
   font-size: 1rem;
   font-weight: 300;
 }
 header {
-  background-color: $nav-bg-color;
+  background-color: $white-bg-color;
   display: flex;
   justify-content: space-between;
   align-items: center;

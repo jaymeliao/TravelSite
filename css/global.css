@@ -23,7 +23,7 @@ h3 {
 }
 
 a {
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 p {
@@ -45,7 +45,7 @@ header {
   padding: 1rem 0;
 }
 header .logo {
-  margin-left: 7rem;
+  margin-left: 7vw;
 }
 header .logo a {
   font-weight: bold;
@@ -55,7 +55,7 @@ header .logo a {
 header nav ul {
   list-style: none;
   display: flex;
-  margin-right: 7rem;
+  margin-right: 7vw;
 }
 header nav ul li {
   margin-left: 1rem;
