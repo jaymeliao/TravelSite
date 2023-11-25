@@ -1,0 +1,44 @@
+@use "partials/variables" as *;
+.hero{
+    background-color: $background-color;
+    padding:5rem $container-paddingX;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    &__left{
+        //box-sizing: border-box;
+        width: 45%;
+        h2{
+            color: $primary-color;
+            font-weight: bold;
+            
+        }
+        p{
+            color: $primary-color;
+            margin:2rem 0;
+            line-height: 1.6;
+        }
+        a{
+            background-color: $sub-color;
+            color: white;
+            border-radius: 50px;
+            padding: 0.5rem 2rem;
+            display: inline-block;
+        }
+    }
+    &__right{
+        box-sizing: border-box;
+        width: 50%;
+        img{
+            display: block; 
+            width: 80%;
+            margin-left: auto;
+            margin-right: 0;
+        }
+    }
+
+}
+
+
+
