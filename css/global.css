@@ -67,6 +67,10 @@ header nav ul {
 header nav ul li {
   margin-left: 1rem;
 }
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+}
 
 main {
   margin-top: 50px;
@@ -91,6 +95,10 @@ footer > div > div h4 {
   padding: 1vw 0;
 }
 footer > div > div p {
+  color: #335576;
+}
+footer > div > div p a {
+  text-decoration: none;
   color: #335576;
 }
 footer > div:nth-child(1) {

@@ -1,1 +1,40 @@
-/*# sourceMappingURL=destination.css.map */
+.destination-place {
+  padding: 3vw 7vw 6vw 7vw;
+  background-color: #fff;
+  background-position: center;
+}
+.destination-place h1 {
+  color: white;
+  padding: 2vw 0;
+  font-weight: bold;
+}
+.destination-place__timetable {
+  display: flex;
+  margin: 1vw 8vw;
+  justify-content: space-between;
+}
+.destination-place__timetable h3 {
+  font-weight: bold;
+  border-bottom: 2px solid black;
+}
+.destination-place__timetable__card {
+  width: 30%;
+  box-sizing: border-box;
+  background-color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  text-align: center;
+  padding: 1rem 1rem 3rem 1rem;
+}
+.destination-place__timetable__card .meal {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  justify-content: space-evenly;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+.destination-place__timetable__card .meal li {
+  background-color: #FEFAF5;
+  padding: 1rem 0;
+}/*# sourceMappingURL=destination.css.map */

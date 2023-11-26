@@ -1,0 +1,43 @@
+@use "partials/variables" as *;
+.destination-place {
+  padding: 3vw $container-paddingX $container-paddingY $container-paddingX;
+  background-color: $white-bg-color;
+  background-position:center;
+
+  h1 {
+    color: white;
+    padding: 2vw 0;
+    font-weight: bold;
+  }
+  &__timetable {
+    display: flex;
+    margin: 1vw 8vw;
+    justify-content: space-between;
+    h3 {
+      font-weight: bold;
+      border-bottom:2px solid black;
+      
+    }
+    &__card {
+      width: 30%;
+      box-sizing: border-box;
+      background-color: white;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+      border-radius: 5px;
+      text-align: center;
+      padding: 1rem 1rem 3rem 1rem;
+      .meal {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        justify-content: space-evenly;
+        gap: 1rem;
+        padding: 1rem 0;
+        li {
+          background-color: $background-color;
+          padding: 1rem 0;
+        }    
+      }
+    }
+  }
+}
