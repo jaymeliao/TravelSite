@@ -9,7 +9,6 @@ body {
   font-family: $font-stack;
 }
 
-
 h1 {
   font-size: 3rem;
   font-weight: 300;
@@ -20,13 +19,20 @@ h2 {
 }
 
 h3{
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: 300;
 }
 
-a {
-  font-size: 1rem;
+h4{
+  font-size: 0.8rem;
+  font-weight: 400;
 }
+
+ul li {
+  font-size: 1rem
+}
+
+a,
 p {
   font-size: 1rem;
   font-weight: 300;
@@ -49,6 +55,7 @@ header {
       font-weight: bold;
       text-decoration: none;
       color: $primary-color;
+      font-size: 1.2rem;
     }
   }
   nav ul {
@@ -63,4 +70,62 @@ header {
 
 main {
   margin-top: 50px;
+}
+
+
+
+footer{
+  background-color: $background-color;
+  display: flex;
+  padding: 2rem 15vw ;
+  justify-content: space-between;
+  gap:4vw;
+  > div {
+    h2{
+      color: $primary-color;
+      font-size: 1.8vw;
+      font-weight: bold;
+      padding: 1.5vw 0;
+      
+    }
+    > div{
+      h4 {
+        color: $sub-color;
+        text-transform: uppercase;
+        padding: 1vw 0;
+      }
+      p{
+        color: $primary-color;
+      }
+    }
+  }
+  > div:nth-child(1){
+    flex: 0 0 20%;
+  }
+  > div:nth-child(3){
+    flex: 1;
+  }
+  > div:nth-child(2){
+    flex: 0 0 50%;
+    > div {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  .social-media {
+   
+      > div{
+        justify-content: space-between;
+      a {
+        display: inline-block;
+        margin: 2.5vw 1rem 0 0;
+
+      }
+    }
+    img {
+      height: 25px;
+    }
+  }
+
 }

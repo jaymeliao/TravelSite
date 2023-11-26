@@ -41,8 +41,9 @@
 }
 
 .recommendations {
-    padding: 1vh $container-paddingX $container-paddingY $container-paddingX;
+    padding: 1vw $container-paddingX $container-paddingY $container-paddingX;
     background-color: $white-bg-color;
+    
     h3 {
         color: $primary-color;
         padding: 2vw 0;
@@ -50,12 +51,11 @@
     }
     .destination{
         display: flex;
-        width: 100%;
-        justify-content: center;
-        gap:2.5vw;
+        margin: 1vw 8vw;
+        justify-content: space-between;
         &__card {
             position: relative;
-            width: 22%;
+            width: 30%;
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
             border-radius: 5px;
             &__img{
@@ -70,7 +70,6 @@
                 right: 1.5vw;
                 font-weight: bold;
                 color: white;
-                font-size: 2vw;
                 padding: 0;
             }
             
