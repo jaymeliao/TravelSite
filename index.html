@@ -27,7 +27,7 @@
             Don’t let your dreams be just dreams. Experience the world by
             booking a vacation with us now.
           </p>
-          <a> Get started</a>
+          <a href="#get-start-form">Get started</a>
         </div>
         <div class="hero__right">
           <img src="assets/Images/hero.png" />
@@ -63,6 +63,24 @@
             <h3 class="destination__card__title">Greece</h3>
           </div>
         </div>
+      </section>
+      <section id="get-start-form">
+        <h3>Get Start</h3>
+        <form action="process-form.php" method="post">
+          <label for="destination">Choose Your Destination:</label>
+          <select id="destination" name="destination">
+            <option value="hawaii">Hawaii</option>
+            <option value="iceland">Iceland</option>
+            <option value="iceland">Greece</option>
+          </select>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+          <button type="submit">Submit</button>
+        </form>
       </section>
     </main>
     <footer>
